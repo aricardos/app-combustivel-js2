@@ -1,0 +1,67 @@
+body {
+    margin: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;    
+}
+
+.container1 {    
+    background-image: url("../imagens/posto.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 3%;
+    width: 800px;
+    height: 300px;
+    margin: auto;
+    color: black;
+}
+
+.container2 {    
+    margin: 50px;
+    width: 230px;
+    height: 220px;
+    border: 1px solid grey;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    color: #16161d;
+}
+
+h3 {
+    text-align: center;
+    color: #16161d;
+    text-shadow: 10px 15px 10px pink;
+}
+
+.label {
+    margin: 10px 35px;
+}
+
+form {
+    margin: 5px 4%;
+}
+
+button {
+    margin: 5px 13%;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #f00;
+    color: #fff;
+    border: 1px outset #ccc;
+}
+
+button:hover {
+    background-color: #050;
+    box-shadow: 5px 5px 10px #aaa;
+}

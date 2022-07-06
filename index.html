@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Arley Ricardo" />
+    <title>App Combustível</title>
+    <link href="css/estilo.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- mecanismos de busca -->
+    <meta name="robots" content="index",  follow" />
+    <meta name="keywords" content="combustível, combustivel app, web, webapp, etanol, gaolina, arley ricardo, css, javascript" />
+    <meta name="description" content="WebApp desenvolvido pelo aluno Senai do curso Desenvolvedor Front-end" />
+</head>    
+<body>
+    <header>        
+            <h1>App Combustível</h1><br />
+            <h3 id="result"></h3>
+        </div>            
+    </header>
+    <main>
+        <div class="container1">
+            <div class="container2"><div />
+                <form onsubmit="return false;"><br />
+                    <label class="label">Preço da gasolina:</label><br />
+                    <label>R$</label>
+                    <input type="text" placeholder="0,00" id="gasolina" onkeydown="verificarInput(event);" /><br /><br />
+                    <label class="label">Preço do etanol:</label><br />
+                    <label>R$</label>
+                    <input type="text" placeholder="0,00" id="etanol" onkeydown="verificarInput(event);" /><br /><br />
+                    <button onclick="combustivel();">Resultado</button>
+                </form>
+                <figure>
+                    <div class="img-posto"></div>
+                </figure>  
+        </div>                    
+    </main>
+    <script src="js/script.js"></script>    
+</body>
+</html>
